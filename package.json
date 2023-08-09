@@ -1,0 +1,33 @@
+{
+  "name": "bot_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mourraille/tg_bot_template.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "notifications",
+    "telegram",
+    "channel",
+    "push"
+  ],
+  "author": "mourraille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mourraille/tg_bot_template/issues"
+  },
+  "homepage": "https://github.com/mourraille/tg_bot_template#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "node-cron": "^3.0.2",
+    "pino": "^8.15.0",
+    "pino-pretty": "^10.2.0"
+  }
+}
