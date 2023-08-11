@@ -27,7 +27,7 @@ axios({
 }
 // push the data to your telegram
 function telegramPush(message){
-    axios.post('https://api.telegram.org/<YOUR BOT CREDENTIALS HERE>/sendMessage', {
+    axios.post('https://api.telegram.org/<YOUR BOT CREDENTIALS HERE>/sendMessage', { // /getUpdates to fetch the ChatID
                     chat_id: '<TELEGRAM_CHAT_ID>',
                     text: message,
                     disable_notification: false
